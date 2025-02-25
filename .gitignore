@@ -7,3 +7,16 @@ env/
 
 # Ignore the parked folder
 parked/
+
+# Ignore some data sets
+SPX500_M5.csv
+BTC_M15.csv
+GBP_USD_M15.csv
+trades.csv
+result.csv
+
+# Ignore my own offline versions of backtests
+*personal*
+
+# Ignore any plots
+plot.png
