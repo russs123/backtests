@@ -1,14 +1,59 @@
-# Ignore Jupyter notebook checkpoints
-.ipynb_checkpoints/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Ignore virtual environment
+# Jupyter Notebook
+.ipynb_checkpoints/
+.jupyter/
+jupyter_notebook_config.py
+
+# Virtual Environment
 venv/
 env/
+ENV/
+.venv/
+.env/
+.virtualenv/
 
-# Ignore the parked folder
-parked/
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
 
-# Ignore some data sets
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.h5
+*.pickle
+*.pkl
+*.feather
+*.parquet
+*.json
+# Uncomment if you want to include specific data files
+# !important_data.csv
+
+# Specific data files to ignore
 SPX500_M5.csv
 SPX500_M30.csv
 SPX500_hourly.csv
@@ -21,8 +66,22 @@ US2000_M15.csv
 trades.csv
 result.csv
 
-# Ignore my own offline versions of backtests
-*personal*
-
-# Ignore any plots
+# Output files
+*.log
+*.out
+outputs/
+results/
+logs/
 plot.png
+*.html
+*.pdf
+
+# Custom ignores
+*personal*
+parked/
+
+# Temporary files
+.~*
+~$*
+*.bak
+*.tmp
