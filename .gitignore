@@ -16,10 +16,13 @@ SPX500_hourly.csv
 BTC_M15.csv
 GBP_USD_M15.csv
 EUR_USD_M15.csv
+EUR_JPY_M15.csv
 NAS100_M15.csv
 NAS100_M15_10 years.csv
 US30_M15.csv
 US2000_M15.csv
+WTICO_USD_M15.csv
+XAU_USD_M15.csv
 trades.csv
 result.csv
 
