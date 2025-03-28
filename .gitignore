@@ -37,6 +37,8 @@ XAU_USD_M15.csv
 trades.csv
 result.csv
 
+*20_years*
+
 # Ignore my own offline versions of backtests
 *personal*
 
