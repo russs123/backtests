@@ -9,6 +9,8 @@ env/
 parked/
 database/
 
+*.xlsx
+
 # Ignore some data sets
 SPX500_M5.csv
 SPX500_M15_10_years.csv
