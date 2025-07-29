@@ -12,6 +12,7 @@ database/
 *.xlsx
 
 # Ignore some data sets
+SPX500_M1.csv
 SPX500_M5.csv
 SPX500_M15_10_years.csv
 SPX500_M30.csv
@@ -47,4 +48,4 @@ result.csv
 *personal*
 
 # Ignore any plots
-plot.png
+*.png
