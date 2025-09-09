@@ -54,15 +54,33 @@ ENV/
 # !important_data.csv
 
 # Specific data files to ignore
+SPX500_M1.csv
 SPX500_M5.csv
+SPX500_M15_10_years.csv
 SPX500_M30.csv
 SPX500_hourly.csv
 BTC_M15.csv
+GBP_AUD_H1.csv
+GBP_CHF_H1.csv
+GBP_JPY_M15.csv
+GBP_JPY_H1.csv
+GBP_JPY_H1_20_years.csv
 GBP_USD_M15.csv
+GBP_USD_H1.csv
 EUR_USD_M15.csv
+EUR_USD_H1.csv
+EUR_GBP_H1.csv
+EUR_JPY_M15.csv
+EUR_JPY_H1.csv
+TRY_JPY_H1.csv
+USD_JPY_H1.csv
 NAS100_M15.csv
+NAS100_M15_10_years.csv
 US30_M15.csv
 US2000_M15.csv
+WTICO_USD_M15.csv
+XAU_USD_M15.csv
+XAU_USD_H1.csv
 trades.csv
 result.csv
 
@@ -75,10 +93,13 @@ logs/
 plot.png
 *.html
 *.pdf
+*.png
 
 # Custom ignores
+*20_years*
 *personal*
 parked/
+database/
 
 # Temporary files
 .~*
