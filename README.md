@@ -13,6 +13,9 @@ This repository contains Jupyter notebooks for backtesting various trading strat
 
 This project is licensed under the MIT License.
 
+## Support the Project!
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/trading_steady)
+
 ## Disclaimer
 
 This repository is for educational and research purposes only. It does not constitute financial advice or recommendations.
